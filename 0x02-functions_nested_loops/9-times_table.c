@@ -1,10 +1,8 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * times_table - check main
- * Description: Write a function that prints the 9 times table, starting with 0
- * Return: Nothing
+ * times_table - prints the 9 times table, starting with 0
+ * Return: empty output
  */
 
 void times_table(void)
@@ -23,7 +21,7 @@ void times_table(void)
 	_putchar(44);
 	_putchar(32);
 	_putchar(d + '0');
- 	_putchar(u + '0');
+	_putchar(u + '0');
 	}
 	else
 	{
