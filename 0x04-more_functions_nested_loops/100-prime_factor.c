@@ -3,13 +3,12 @@
 
 /**
  * main -  finds and prints the largest prime factor of the number 612852475143
- *
- * Return: The result
+ * Return: always 0 (success)
  */
 
 int main(void)
 {
-	long x maxf;
+	long x, maxf;
 	long number = 612852475143;
 	double square = sqrt(number);
 
