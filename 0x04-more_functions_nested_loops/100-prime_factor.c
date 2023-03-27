@@ -9,16 +9,17 @@
 
 int main(void)
 {
-	unsigned long int n, c = 612852475143;
-	unsigned long int root = (int)(sqrt(612852475143));
-	
-	for (n = 3; n <= root; n++)
+	long x maxf;
+	long number = 612852475143;
+	double square = sqrt(number);
+
+	for (x = 1; x <= square; x++)
 	{
-		while (c % n == 0 && c != n)
-		{
-			c /= n;
-		}
+	if (number % x == 0)
+	{
+	maxf = number / x;
 	}
-	printf("%lu\n", c);
+	}
+	printf("%ld\n", maxf);
 	return (0);
 }
